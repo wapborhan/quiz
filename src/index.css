@@ -1,0 +1,39 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.start-quiz div
+ {
+  animation: expandBlocks 1s forwards 1s;
+}
+
+.start-quiz .hide {
+  animation: hide 0.5s forwards 1s;
+}
+
+.start-quiz {
+  animation: hide 0.5s forwards 2s;
+}
+
+
+@keyframes expandBlocks {
+    0% {
+      width: 50%;
+    }
+    100% {
+      width: 0%;
+    }
+}
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: -999;
+  }
+}

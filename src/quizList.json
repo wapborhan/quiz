@@ -1,0 +1,68 @@
+[
+     {
+        "id": 1,
+        "question": "5 * 5?",
+        "options": [{
+                "index": "A",
+                "option": "4"
+            },
+            {
+                "index": "B",
+                "option": "15"
+            },
+            {
+                "index": "C",
+                "option": "25"
+            },
+            {
+                "index": "D",
+                "option": "41"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 2,
+        "question": "5 + (10 / 2) * 2?",
+        "options": [{
+                "index": "A",
+                "option": "20"
+            },
+            {
+                "index": "B",
+                "option": "15"
+            },
+            {
+                "index": "C",
+                "option": "30"
+            },
+            {
+                "index": "D",
+                "option": "0"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 3,
+        "question": "10 * 10?",
+        "options": [{
+                "index": "A",
+                "option": "120"
+            },
+            {
+                "index": "B",
+                "option": "105"
+            },
+            {
+                "index": "C",
+                "option": "100"
+            },
+            {
+                "index": "D",
+                "option": "400"
+            }
+        ],
+        "answer": "C"
+    }
+]
